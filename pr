@@ -1,0 +1,21 @@
+while True:
+    print("\n=== APLICAȚIA DE JOC / SCOR ===")
+    nume = input("Cum te cheamă? ")
+    print(f"Bine ai venit, {nume}!")
+    scor = int(input("Introdu scorul obținut: "))
+    dublu = scor * 2
+    peste_cinci_ani = scor + 5
+    
+    print(f"Dublul scorului tău este: {dublu}")
+    print(f"Valoarea peste 5 ani va fi: {peste_cinci_ani}")
+    if scor > 5:
+        print("Bravo!")
+    elif scor == 4 or scor == 5:
+        print("Aproape!")
+    else:
+        print("Mai încearcă!")
+        raspuns = input("\nMai încerci? (da/nu): ").strip().lower()
+
+    if raspuns != "da":
+        print(f"La revedere, {nume}! O zi frumoasă.")
+        break

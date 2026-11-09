@@ -1,0 +1,10 @@
+numar = int(input("Introdu un număr (de exemplu, vârsta ta): "))
+dublu = numar * 2
+este_par = (numar % 2 == 0)
+print(f"Dublul numărului introdus este: {dublu}")
+print(f"Peste 5 ani vei avea (sau valoarea va fi): {peste_cinci_ani}")
+
+if este_par:
+    print(f"Numărul {numar} este PAR.")
+else:
+    print(f"Numărul {numar} este IMPAR.")

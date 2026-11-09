@@ -1,0 +1,3 @@
+print("=== APLICAȚIA DE BUN VENIT ===")
+nume = input("Cum te cheamă? ")
+print(f"Bine ai venit, {nume}! Îți mulțumesc că folosești aplicația noastră.")

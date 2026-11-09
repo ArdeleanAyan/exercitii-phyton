@@ -1,0 +1,7 @@
+scor = int(input("Introdu scorul obținut: "))
+if scor > 5:
+    print("Bravo!")
+elif scor == 4 or scor == 5:
+    print("Aproape!")
+else:
+    print("Mai încearcă!")
